@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Sometimes Times TRIAL';
-    src: url('fonts/SometimesTimesTRIAL-Regular.eot');
-    src: url('fonts/SometimesTimesTRIAL-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/SometimesTimesTRIAL-Regular.woff2') format('woff2'),
-         url('fonts/SometimesTimesTRIAL-Regular.woff') format('woff'),
-         url('fonts/SometimesTimesTRIAL-Regular.ttf')  format('truetype'),
-         url('fonts/SometimesTimesTRIAL-Regular.svg#Sometimes Times TRIAL') format('svg');
-}
