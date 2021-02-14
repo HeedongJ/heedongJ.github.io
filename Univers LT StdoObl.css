@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('fonts/UniversLTStd-LightObl.eot');
+    src: url('fonts/UniversLTStd-LightObl.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UniversLTStd-LightObl.woff2') format('woff2'),
+         url('fonts/UniversLTStd-LightObl.woff') format('woff'),
+         url('fonts/UniversLTStd-LightObl.ttf')  format('truetype'),
+         url('fonts/UniversLTStd-LightObl.svg#Univers LT Std') format('svg');
+}

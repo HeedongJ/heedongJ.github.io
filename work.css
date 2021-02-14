@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Univers LT Std';
+    src: url('fonts/UniversLTStd.eot');
+    src: url('fonts/UniversLTStd.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UniversLTStd.woff2') format('woff2'),
+         url('fonts/UniversLTStd.woff') format('woff'),
+         url('fonts/UniversLTStd.ttf')  format('truetype'),
+         url('fonts/UniversLTStd.svg#Univers LT Std') format('svg');
+}
+@font-face {
+    font-family: 'Univers LT StdLite';
+    src: url('fonts/UniversLTStd-Light.eot');
+    src: url('fonts/UniversLTStd-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UniversLTStd-Light.woff2') format('woff2'),
+         url('fonts/UniversLTStd-Light.woff') format('woff'),
+         url('fonts/UniversLTStd-Light.ttf')  format('truetype'),
+         url('fonts/UniversLTStd-Light.svg#Univers LT Std') format('svg');
+}
+@font-face {
+    font-family: 'Univers LT StdObl';
+    src: url('fonts/UniversLTStd-LightObl.eot');
+    src: url('fonts/UniversLTStd-LightObl.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UniversLTStd-LightObl.woff2') format('woff2'),
+         url('fonts/UniversLTStd-LightObl.woff') format('woff'),
+         url('fonts/UniversLTStd-LightObl.ttf')  format('truetype'),
+         url('fonts/UniversLTStd-LightObl.svg#Univers LT Std') format('svg');
+}
+
+
+  #logo{color:black;
+  position: fixed;
+  left:100px;
+  top:100px;
+  font-size:1.5rem;
+  letter-spacing:-1px;
+  font-family:'Univers LT Std';
+}
+#logo a{
+  color:white;
+  text-decoration: none;
+}
+      #menu{
+        position:fixed;
+        text-align:right;
+        right:100px;
+        top:100px;
+        font-family:'Univers LT Std';}
+
+#menu a{
+  text-decoration:none;
+    color:white;
+    padding-left:50px;
+  }
+  .top a{margin-left: auto;
+    margin-right: auto;
+  width:50%;}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 200px;
+}
+.blank{
+  flex:0.1;
+  padding:}
+
+.explain{
+    flex:3;
+    padding-top:200px;
+}
+.explain2{
+    flex:3;
+    padding-top:200px;
+}
+.blank{
+    flex:0.1;
+    padding:}
+
+.explain h1{
+  font-family: 'Univers LT StdLite';
+  font-size: 2rem;
+  line-height: 1.7;
+  letter-spacing: 1.3px;
+  color:white;}
+  .caption{
+    font-family: 'Univers LT StdObl';
+    font-size: 0.8rem;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    color:white;
+
+  }
+  h2{font-family: 'Univers LT StdLite';
+  font-size: 1.2rem;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  color:white;
+
+  }
+
+
+.explain p{
+  font-family: 'Univers LT StdLite';
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color:white;
+}
+.explain2 p{
+  font-family: 'Univers LT StdLite';
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color:white;
+  text-align: center;
+}
+p{
+  font-family: 'Univers LT StdLite';
+  font-size: 1.2rem;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color:white;
+}
