@@ -106,6 +106,22 @@
                         margin-bottom: 1%;
 
                     }
+                    .title_video{
+                      flex:1;
+                      padding-bottom: 56.25%;
+                      height:0;
+                      overflow: hidden;
+                      position: relative;
+                    }
+                    .title_video iframe{
+
+                      position: absolute;
+
+                      top:0;
+                      left:0;
+                      width: 100%;
+                      height:100%;
+                    }
 
 
 .title_imageT:hover{
@@ -240,4 +256,22 @@ img{width:100%;}
     margin: 35%;
 
 }
+}
+
+.wrap{
+  flex:1;
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: 0;
+  height: 0;
+  overflow: hidden;
+}
+.wrap iframe{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+flex:1;
+
 }
