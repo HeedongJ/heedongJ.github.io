@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.typekit.net/rza2ylr.css">
+
+  <SCRIPT>
+<!--
+var count = 210;
+function Picture() {
+	count = Counting(count);
+	Resize(count);
+	return false;
+}
+
+function Counting(count){
+	if (event.wheelDelta >= 10)
+		count++;
+	else if (event.wheelDelta <= -10)
+		count--;
+	return count;
+}
+
+function Resize(count){
+	oImage.style.zoom = count + '0%';
+}
+
+function Picture1(){
+	if (event.wheelDelta >= 10)
+		window.scrollBy(210,0);
+	else if (event.wheelDelta <= -10)
+		window.scrollBy(-210,0);
+}
+//-->
+</SCRIPT>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MY8R2H5VH"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'G-3MY8R2H5VH');
+</script>
+<style>
+body{background-color: black;}
+
+  #anim{max-width: 120px; position: fixed; right: 60px; bottom: 60px;}
+    .gallery_frame{
+      display: flex;
+      flex-direction: row;
+    }
+
+
+    .gallery{
+
+    display: inline-block;
+    margin-right: 150px;
+flex:1;
+
+    }
+
+
+    .gallery2{
+
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+
+flex:1;
+
+    }
+
+    .gallery3{
+
+    display: inline-block;
+    margin-left: 0px;
+
+flex:1;
+
+    }
+
+    .gallery4{
+
+    display: inline-block;
+    margin-left: 0px;
+
+flex:3;
+
+    }
+
+
+
+
+
+    .gallery3{
+
+    display: inline-block;
+    margin-right: 100px;
+flex:1.5;
+
+
+    }
+.top_margin{margin-top:15%;}
+
+
+         .gallery img{width: 400px;}
+      .gallery2 img{width: 800px;}
+      .gallery3 img{width: 600px;}
+      .title{
+        font-family: proxima-nova, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: white;
+        letter-spacing: 1px;
+
+
+
+
+          line-height: 1.3;}
+          a{text-decoration: none;}
+
+
+
+                      #heedong{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 0.3px;
+                        text-align: center;
+                        position: fixed; left:120px; top: 60px;;
+                        line-height: 1.5;
+                      }
+                      #Portfolio{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 0.3px;
+                        text-align: center;
+                        position: fixed; left:40%; top: 60px;;
+                      }
+                      #about_fixed{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 1px;
+                        text-align: left;
+
+
+                        line-height: 1.8;
+                      }
+
+                      #sub_title6{position:fixed;right:60px; top:60px;font-family: proxima-nova, sans-serif;
+                      font-weight: 600;
+                      font-style: normal;
+                    color:black;
+                    font-size: 1rem;
+                    letter-spacing: 0.5px;
+
+                    line-height: 1.5;
+                    display: inline-block; background-color: white; width: 150px;
+                    text-align: center;}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+
+.title2{
+  display: inline-block;
+
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 24px;
+  background-color: yellow;
+  padding-left: 10px;
+  padding-left: 30px; padding-right: 30px;
+
+  flex:1;
+    line-height: 1.3;}
+    .title3{
+      display: inline-block;
+
+      font-family: proxima-nova, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2rem;
+      color: black;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 24px;
+      background-color: yellow;
+      padding-left: 10px;
+      padding-left: 30px; padding-right: 30px;
+
+      flex:1;
+        line-height: 1.3;}
+
+
+          @media screen and (max-width:1200px){
+            .gallery2,{margin-right: 30px;}
+
+             .gallery img{width: 300px;}
+            .gallery2 img{width: 600px;}
+            .gallery3 img{width:450px;}
+
+          #about_fixed{
+          font-size: 1rem; }
+          #heedong{font-size:1.5rem;
+          position: fixed;left:60px; top:30px;}
+          .top_margin{margin-top: 240px;}
+          #sub_title6{font-size: 0.8rem;position: fixed; right: 30px; top:30px;}
+          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
+          .title{font-size: 2rem; padding-left: 15px; padding-right: 15px; margin-top: 60px; }
+        }
+</style>
+
+
+
+</head>
+<BODY>
+  <div id="anim"></div>
+  <script src="lottie.js"></script>
+  <script src="index.js"></script>
+<div class="top_margin"></div>
+
+<a href="index.html"><div id="heedong">Graphics By Heedong <br> Portfolio</div></a>
+
+
+<div class="top_margin"> </div>
+  <div class="gallery_frame">
+    <div class="gallery2">
+<div id="about_fixed">
+  Heedong Jeong <br>  <br></div>
+  <div class="title">
+  Visual Communication Designer
+  </div>
+</div>
+  <div class="gallery3">
+    <div id="about_fixed">
+  Contact Info.<br> <br></div>
+<div class="title"> 812.668.0857 <br>
+  heedong.design@gmail.com
+</div>
+</div>
+<div class="gallery4"></div>
+</div>
+
+
+<div class="container">
+  <a href="index.html"><div id="sub_title6">Home</div></a>
+</div>
+
+
+
+
+</BODY>
+</html>
