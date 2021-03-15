@@ -1,188 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-98JC3FEDYK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-98JC3FEDYK');
-</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Graphics by Heedong</title>
-  <style>
-    @import url("style.css");
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.typekit.net/rza2ylr.css">
 
-body{margin-left:22%;
-        margin-right:8%;
-        background-color: black;
-        }
-          @media screen and (max-width:900px){
+  <SCRIPT>
+<!--
+var count = 210;
+function Picture() {
+	count = Counting(count);
+	Resize(count);
+	return false;
+}
 
-          body
-          {margin-left: 4%;margin-right: 4%;}
-          .works{font-size: 0.8rem;}
+function Counting(count){
+	if (event.wheelDelta >= 10)
+		count++;
+	else if (event.wheelDelta <= -10)
+		count--;
+	return count;
+}
 
-          #logo{font-size: 0.9rem; letter-spacing: -0.5px; position:fixed; top:4%; left:4%;}
+function Resize(count){
+	oImage.style.zoom = count + '0%';
+}
 
-          #menu{position: fixed;right: 4%; top:4%; font-size: 0.8rem;}
+function Picture1(){
+	if (event.wheelDelta >= 10)
+		window.scrollBy(210,0);
+	else if (event.wheelDelta <= -10)
+		window.scrollBy(-210,0);
+}
+//-->
+</SCRIPT>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3MY8R2H5VH"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
 
-          #about{display: none;}
+ gtag('config', 'G-3MY8R2H5VH');
+</script>
+<style>
+body{background-color: black;}
 
-          .gallery{font-size: 0.8rem;}
-
-
-        }
-
-
-    .list{
-    font-size:1.5rem;
-    text-align:center;
-    font-family:'Univers LT Std';
-    }
-
+  #anim{max-width: 120px; position: fixed; right: 60px; bottom: 60px;}
     .gallery_frame{
       display: flex;
       flex-direction: row;
-      height: 100%;
     }
+
+
     .gallery{
 
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    margin-right: 150px;
+flex:1;
+
+    }
+
+    .gallery2{
+
+    display: inline-block;
+    margin-right: 150px;
+flex:2;
+
+    }
+
+    .gallery2{
+
+    display: inline-block;
+    margin-right: 150px;
+    margin-left: 150px;
+
+flex:3;
+
+    }
+
+
+
+
+
+    .gallery3{
+
+    display: inline-block;
+    margin-right: 100px;
+flex:1.5;
 
 
     }
-    .galleryempty{
-      flex-grow: 1;
-      margin-right: 40%;
-
-    }
-    .gallery img{width: 100%;
-      transform: scale(1);
-      transition: all 0.5s;
-    }
-
-    .empty1{
-    flex:2;
-    background: yellow;
-    padding:50px;
-    }
+.top_margin{margin-top:15%;}
 
 
+         .gallery img{width: 400px;}
+      .gallery2 img{width: 800px;}
+      .gallery3 img{width: 600px;}
+      .title{
+        display: inline-block;
 
-    .hbc{
-    flex:3;
-    padding:30px;
-    transform:scale(1);
-    transition:all 1s;
-    }
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: black;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 120px;
+        background-color: yellow;
+        padding-left: 10px;
+        padding-left: 30px; padding-right: 30px;
 
-    .empty2{
-    flex:2;
-    background: orange;
-    padding:50px;
-    }
-    .gallery:hover{  transform:scale(1.1);
-      transition:all 0.5s;
-      transform-origin:100 0 0;
-      }
+        flex:1;
+          line-height: 1.3;}
+          a{text-decoration: none;}
+          .gallery img{;
+            transform: scale(1);
+            transition: all 0.5s;}
 
-.left_space div{
-  height:100px;
-  padding-right:50;
+            .gallery:hover{  transform:scale(1.1);
+              transition:all 0.5s;
+              transform-origin:100 0 0;
+              }
+
+              .gallery2 img{;
+                transform: scale(1);
+                transition: all 0.5s;}
+
+                .gallery2:hover{  transform:scale(1.1);
+                  transition:all 0.5s;
+                  transform-origin:100 0 0;
+                  }
+
+                  .gallery3 img{;
+                    transform: scale(1);
+                    transition: all 0.5s;}
+
+                    .gallery3:hover{  transform:scale(1.1);
+                      transition:all 0.5s;
+                      transform-origin:100 0 0;
+                      }
+                      #heedong{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 0.3px;
+                        text-align: center;
+                        position: fixed; left:120px; top: 60px;;
+                        line-height: 1.5;
+                      }
+                      #Portfolio{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 0.3px;
+                        text-align: center;
+                        position: fixed; left:40%; top: 60px;;
+                      }
+                      #about_fixed{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 1.4rem;
+                        color: white;
+                        letter-spacing: 1px;
+                        text-align: left;
+                        position: fixed;
+                        left: 60px;
+                        line-height: 1.8;
+                      }
+
+                      #sub_title6{position:fixed;right:60px; top:60px;font-family: proxima-nova, sans-serif;
+                      font-weight: 600;
+                      font-style: normal;
+                    color:black;
+                    font-size: 1rem;
+                    letter-spacing: 0.5px;
+
+                    line-height: 1.5;
+                    display: inline-block; background-color: white; width: 150px;
+                    text-align: center;}
+
+.container{
+  width: 100%;
+  text-align: center;
 }
-.galleryspace{
-  margin: 10%;
-}
-.space_ending {
-  margin: 35%;
-}
-.space_start {
-    margin: 30%;}
 
-a{text-decoration: none; color:black;}
 
-      </style>
+.title2{
+  display: inline-block;
+
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 24px;
+  background-color: yellow;
+  padding-left: 10px;
+  padding-left: 30px; padding-right: 30px;
+
+  flex:1;
+    line-height: 1.3;}
+    .title3{
+      display: inline-block;
+
+      font-family: proxima-nova, sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 2rem;
+      color: black;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 24px;
+      background-color: yellow;
+      padding-left: 10px;
+      padding-left: 30px; padding-right: 30px;
+
+      flex:1;
+        line-height: 1.3;}
+
+
+          @media screen and (max-width:1200px){
+            .gallery, .gallery2, .gallery3{margin-right: 75px;}
+
+             .gallery img{width: 300px;}
+            .gallery2 img{width: 600px;}
+            .gallery3 img{width:450px;}
+
+          #about_fixed{position: fixed;left: 30px;top:240px;
+          font-size: 1.2rem; }
+          #heedong{font-size:1.5rem;
+          position: fixed;left:60px; top:30px;}
+          .top_margin{margin-top: 240px;}
+          #sub_title6{font-size: 0.8rem;position: fixed; right: 30px; top:30px;}
+          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
+          .title{font-size: 2rem; padding-left: 15px; padding-right: 15px; margin-top: 60px; }
+        }
+</style>
+
+
+
 </head>
+<BODY onmousewheel="Picture1()">
+  <div id="anim"></div>
+  <script src="lottie.js"></script>
+  <script src="index.js"></script>
+<div class="top_margin"></div>
 
-<body>
-  <div class="space_start"></div>
+<div id="heedong">Graphics By Heedong <br> Portfolio</div>
 
-<div id="logo"> <a href="index.html">Graphics by Heedong</a></div>
 
-<div id="menu">
-    <a href="contact.html">Contact</a>
-
-</div>
-<div id="about">
-   Heedong Jeong, Majoring in visual communication  <br>
-   design at Korea National University of Arts (BA). I'm <br>
-   living in U.S as a permanent resigent. <br> <br>
+<div class="top_margin">
+<div id="about_fixed">   Heedong Jeong, Majoring in visual communication  <br>
+   design at Korea National University of Arts (BA).<br>
+   I'm living in U.S as a permanent resigent. <br> <br>
    I have explored how to interpret and communicate<br>
    given information in graphic language and that is the most<br>
    interested thing to me. <br> <br>
    Every graphic design contains a message. These messages   <br>
    can be maximized or interpreted differently depending on the  <br>
    designer's graphic intentions. I'm interested in this <br>
-   relationship and thinking about it when creating my design.
+   relationship and thinking about it when creating my design.</div>
+ </div>
+
+<div class="gallery_frame">
+
+<div class="gallery2"> <img src="image/empty.png" alt=""></div>
+<div class="gallery2"><a href="spiceable.html">
+  <img src="image/spiceable/title.png" alt="">
+  <div class="container">
+  <div class="title">SPICEABLE</div></a>
+
+
+</div>
+</div>
+<div class="gallery"><a href="moodle.html">
+  <img src="image/moodle/moodlegallery.png" alt="">
+  <div class="container">
+
+    <div class="title">Moodle</div></a>
+</div>
 </div>
 
+<div class="gallery"><a href="seebal.html">
+  <img src="image/seebal/see.png" alt="">
+  <div class="container">
 
-
-<br>
-<br>
-<div class="gallery_frame">
-  <div class="galleryempty"></div>
-<div class="gallery"> <a href="spiceable.html"><img src="image/spiceable/title1.png" alt=""></a> <div class="works">SPICEABLE</div></div>
+  <div class="title">Seebal</div></a>
 </div>
-<div class="galleryspace"></div>
-<div class="gallery_frame">
-  <div class="galleryempty"></div>
-<div class="gallery"><a href="moodle.html"><img src="image/moodle/moodlegallery.png" alt=""></a> <div class="works">Moodle</div></div>
 </div>
-<div class="galleryspace"></div>
-<div class="gallery_frame">
-  <div class="galleryempty"></div>
-  <div class="gallery"><a href="seebal.html"><img src="image/seebal/see.png" alt=""> </a><div class="works">Seebal</div></div>
-</div>  <div class="galleryspace"></div>
+<div class="gallery2"><a href="nori.html">
+  <img src="image/nori/norigallery.png" alt="">
+  <div class="container">
 
-    <div class="gallery_frame">
-      <div class="galleryempty"></div>
-  <div class="gallery"><a href="nori.html"><img src="image/nori/norigallery.png" alt=""></a><div class="works">Myutt - Nori</div></div>
+  <div class="title">Myutt-Nori</div></a>
+</div>
+</div>
+<div class="gallery3"><a href="regrets.html">
+
+  <img src="image/regrets/regretsgallery.png" alt="">
+  <div class="container">
+
+  <div class="title">Regrets</div></a>
+</div>
+
+</div>
+<div class="gallery"> <a href="hbc.html">
+  <img src="image/hbc/hbcgallery.png" alt="">
+  <div class="container">
+
+  <div class="title">H.B.C</div></a>
+
+</div>
+</div>
+<div class="gallery2"><a href="surviellance.html">
+  <img src="image/suv/suvgallery.png" alt="">
+  <div class="container">
+
+  <div class="title">Surviellance</div></a>
+</div>
+
+</div>
+<div class="gallery"><a href="internship1.html">
+  <img src="image/intern/intern1.png" alt="">
+  <div class="container">
+
+  <div class="title">internship 2018</div></a>
+</div>
+</div>
+  <div class="gallery">
+    <img src="image/empty.png" alt="">
+
   </div>
-<div class="galleryspace"></div>
-<div class="gallery_frame">
-  <div class="galleryempty"></div>
-    <div class="gallery"><a href="regrets.html"><img src="image/regrets/regretsgallery.png" alt=""></a><div class="works">Regrets</div></div>
-    </div>
-    <div class="galleryspace"></div>
-    <div class="gallery_frame">
-      <div class="galleryempty"></div>
-      <div class="gallery"><a href="hbc.html"><img src="image/hbc/hbcgallery.png" alt=""> </a><div class="works">H.B.C</div></div>
-    </div>
-    <div class="galleryspace"></div>
-    <div class="gallery_frame">
-      <div class="galleryempty"></div>
-    <div class="gallery"> <a href="surviellance.html"><img src="image/suv/suvgallery.png" alt=""></a><div class="works">Surviellance</div></div>
-  </div>
-  <div class="galleryspace"></div>
 
-    <div class="gallery_frame">
-      <div class="galleryempty"></div>
-  <div class="gallery"><a href="tdl.html"><img src="image/tdl/tdl.png" alt=""></a><div class="works">TDL Series</div></div>
-  </div>
 
-<div class="galleryspace"></div>
-<div class="gallery_frame">
-  <div class="galleryempty"></div>
-<div class="gallery"><a href="internship1.html"><img src="image/intern/intern1.png" alt=""></a><div class="works">Internship 2018</div></div>
+
 </div>
-<div class="space_ending"></div>
-</body>
+
+<div class="container">
+  <a href="contact.html"><div id="sub_title6">Contact</div></a>
+</div>
+
+
+
+
+</BODY>
 </html>
