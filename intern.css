@@ -1,0 +1,293 @@
+
+#logo a{
+text-decoration: none;
+}
+    #menu{
+      position:fixed;
+      text-align:right;
+      right:8%;
+      top:8%;
+      font-family:'Univers LT Std';}
+
+#menu a{
+text-decoration:none;
+  padding-left:50px;
+}
+
+.space_start{
+  margin-top: 200px;
+}
+
+.space_ending{
+  margin-top: 200px;
+}
+.space_ending2{
+  margin-top: 100px;
+}
+
+
+.video_container{
+  position: relative;
+    width: 100%;
+
+    padding-bottom: 56.25%;
+    margin-left: auto;margin-right: auto;
+
+}
+.container{
+  margin-left: 22%;
+  margin-right: 22%;
+}
+.container_line{
+  width:100%;
+
+  text-align: center;
+}
+
+
+.container3{
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+
+.caption{
+
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.3rem;
+  letter-spacing: 0.6px;
+  margin-bottom: 50px;
+  text-align: center;
+  }
+
+
+
+.title{
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+font-size: 3.5rem;
+letter-spacing: 1px;
+text-align: center;
+margin-bottom: 25px;
+}
+
+      .sub_title{
+        font-family: proxima-nova, sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top: 100px;
+      line-height: 1.5;
+      }
+
+      .sub_title2{
+        font-family: proxima-nova, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-bottom:25px;
+      line-height: 1.5;
+      }
+
+      .sub_title3{
+        font-family: proxima-nova, sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      font-size: 1.6rem;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top:25px;
+      line-height: 1.5;
+      }
+
+      .sub_title_ending{
+        font-family: proxima-nova, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-top:150px;
+      margin-bottom:25px;
+      line-height: 1.5;
+      }
+
+.subject{
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+font-size: 1.3rem;
+letter-spacing: 0.6px;
+text-align: center;
+margin-top: 150px;
+margin-bottom:25px;
+display: inline-block;
+background: linear-gradient(to top, black 10%, transparent 10%)
+}
+
+.subject2{
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+font-size: 1.3rem;
+letter-spacing: 0.6px;
+text-align: center;
+margin-top: 0px;
+margin-bottom:0px;
+display: inline-block;
+background: linear-gradient(to top, black 10%, transparent 10%)
+}
+
+
+
+
+.explain{
+  display: inline-block;
+width: 100%;
+max-width:1000px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 1.2rem;
+letter-spacing: 0.6px;
+line-height: 1.6;
+text-align: center;
+margin-top: 25px;
+margin-bottom:25px;
+}
+
+.explain2{
+  display: inline-block;
+width: 100%;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 1.2rem;
+letter-spacing: 0.6px;
+line-height: 1.6;
+text-align: center;
+margin-top: 25px;
+margin-bottom:25px;
+}
+
+.title_image{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0px;
+  margin: 0;
+  display: flex;
+}
+
+.image{
+  display: inline-block;
+  width:100%;
+  max-width: 1100px;
+  margin-top: 25px;
+  flex:1;
+
+}
+
+.image-1{
+  display: inline-block;
+  width:100%;
+  max-width: 1450px;
+  margin-top: 25px;
+
+}
+
+.full_image{
+  margin-top: 25px;
+
+}
+
+
+.image_no_bottomm_margin{
+  display: inline-block;
+  width:100%;
+  max-width: 1100px;
+  margin-top: 200px;
+}
+.image_no_top_margin{
+  display: inline-block;
+  width:100%;
+  max-width: 1100px;
+  margin-bottom: 25px;
+}
+img{
+  width:100%;
+  height: auto;
+}
+
+.image2{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.image2_1{
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  width:535px;
+  margin-top: 25px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 0.6px;
+  flex: 1;
+
+}
+.image2_2{
+  display: inline-block;
+  margin-bottom: 25px;
+  width:535px;
+  margin-top: 25px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 0.6px;
+  flex:1;
+
+}
+
+.image2_1_1{
+  display: inline-block;
+
+  margin-right: 25px;
+  margin-bottom: 25px;
+  width:535px;
+
+
+}
+.image2_2_1{
+  display: inline-block;
+  margin-bottom: 25px;
+  width:535px;
+
+}
+
+.full_image2{
+  flex:1;
+  margin-right: 25px;
+  margin-top: 25px;
+  width: 100%
+}
+.full_image2_2{
+flex:1;
+width: 100%;
+margin-top: 25px;
+
+}
+
+.client0{
+  flex:1;
+}
