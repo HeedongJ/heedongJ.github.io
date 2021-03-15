@@ -1,0 +1,65 @@
+
+.works{
+  color:white;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+
+  text-align: right;}
+}
+
+
+  #logo{color:white;
+  position: fixed;
+  left:8%;
+  top:8%;
+  font-size:1.5rem;
+  letter-spacing:-1px;
+  font-family:'Univers LT Std';
+    text-decoration: none;}
+    #logo a{
+      color:white;
+      text-decoration: none;
+    }
+    #menu{
+      position:fixed;
+      text-align:right;
+      right:8%;
+      top:8%;
+      font-family:'Univers LT Std';}
+
+#menu a{
+text-decoration:none;
+  color:white;
+  padding-left:50px;
+}
+.space_ending {
+  margin: 400px;
+}
+.space_start {
+    margin-top: :300px;
+
+}
+
+  #about{color:white;
+  position: fixed;
+  left: 8%;
+  top: 20%;
+  margin-right: 25px;
+  padding-bottom: 5px;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 15px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+
+  text-align: left;}
