@@ -267,13 +267,13 @@ flex:1.5;
           }
 
 
-          @media screen and (max-width:850px){
+          @media screen and (max-width:1050px){
 
 
-             .gallery img{width: 180px;}
-            .gallery2 img{width: 360px;}
-            .gallery3 img{width:270px;}
-            .gallery4 img{ width:360px;}
+             .gallery img{width: 200px;}
+            .gallery2 img{width: 400px;}
+            .gallery3 img{width:300px;}
+            .gallery4 img{ width:400px;}
 
           #about_fixed{position: fixed;left: 30px;top:170px;
           font-size: 0.8rem; }
@@ -286,20 +286,20 @@ flex:1.5;
           .gallery_frame{position: absolute;right: 30px;}
           }
 
-          @media screen and (max-width:480px){
+          @media screen and (max-width:750px){
 
 
              .gallery img{width: 100%;}
             .gallery2 img{width: 100%;}
             .gallery3 img{width:100%;}
-            .gallery4 img{ width:100;}
+            .gallery4 img{ width:100%;}
 
           #about_fixed{display: none;}
           #line_container{display: none;}
           #heedong{font-size:1rem;
-          text-align: center; top:30px;}
-          .top_margin{margin-top: 170px;}
-          #sub_title6{font-size: 0.8rem;position: fixed; right: 30px; top:30px;}
+          text-align: center; position: fixed;left: 0; right: 0;}
+          .top_margin{margin-top: 100px;}
+          #sub_title6{display: none;}
           #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
           .title{font-size: 0.8rem; padding-left: 15px; padding-right: 15px; margin-top: 6px; margin-bottom: 50px;}
           .gallery_frame{position: absolute;right:3%; left: 3%;}
@@ -313,8 +313,9 @@ flex:1.5;
 </head>
 <BODY>
 
-  
+
 <div class="top_margin"></div>
+<div id="line_container"></div>
 
 <div id="heedong">GRAPHICS BY HEEDONG <br> PORTFOLIO</div>
 
@@ -401,10 +402,7 @@ flex:1.5;
   <div class="title">internship 2018</div></a>
 </div>
 </div>
-  <div class="gallery">
-    <img src="image/empty.png" alt="">
 
-  </div>
 
 
 
