@@ -4,38 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Graphic's by Heedong</title>
+  <title>Graphics by Heedong</title>
   <link rel="stylesheet" href="https://use.typekit.net/rza2ylr.css">
 
-  <SCRIPT>
-  <!--
-  var count = 10;
-  function Picture() {
-  	count = Counting(count);
-  	Resize(count);
-  	return false;
-  }
 
-  function Counting(count){
-  	if (event.wheelDelta >= 120)
-  		count++;
-  	else if (event.wheelDelta <= -120)
-  		count--;
-  	return count;
-  }
-
-  function Resize(count){
-  	oImage.style.zoom = count + '0%';
-  }
-
-  function Picture1(){
-  	if (event.wheelDelta >= 120)
-  		window.scrollBy(10,0);
-  	else if (event.wheelDelta <= -120)
-  		window.scrollBy(-10,0);
-  }
-  //-->
-  </SCRIPT>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-98JC3FEDYK"></script>
   <script>
@@ -51,14 +23,21 @@ body{background-color: black;}
   #anim{max-width: 120px; position: fixed; right: 60px; bottom: 60px;}
     .gallery_frame{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      position: absolute; right: 60px;
+    }
+
+    #line_container{
+      position: fixed; left: 43%; top:0;
+      border-right: 1px solid white;
+      height: 100%;
     }
 
 
     .gallery{
 
     display: inline-block;
-    margin-right: 150px;
+
 flex:1;
 
     }
@@ -66,7 +45,7 @@ flex:1;
     .gallery2{
 
     display: inline-block;
-    margin-right: 150px;
+
 flex:2;
 
     }
@@ -76,7 +55,7 @@ flex:2;
     .gallery4{
 
     display: inline-block;
-    margin-right: 150px;
+
 
 
 flex:3;
@@ -90,7 +69,7 @@ flex:3;
     .gallery3{
 
     display: inline-block;
-    margin-right: 100px;
+
 flex:1.5;
 
 
@@ -102,20 +81,23 @@ flex:1.5;
       .gallery2 img{width: 800px;}
       .gallery3 img{width: 600px;}
       .gallery4 img{width: 800px;}
+
+
       .title{
         display: inline-block;
 
         font-family: proxima-nova, sans-serif;
         font-weight: 500;
         font-style: normal;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         color: black;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         text-align: center;
-        margin-top: 120px;
+        margin-top: 12.5px;
+        margin-bottom: 125px;
         background-color: yellow;
-        padding-left: 10px;
-        padding-left: 30px; padding-right: 30px;
+        padding-left: 25px;
+         padding-right: 25px;
 
         flex:1;
           line-height: 1.3;}
@@ -190,6 +172,7 @@ flex:1.5;
                         position: fixed;
                         left: 60px;
                         line-height: 1.5;
+
                       }
 
                       #sub_title6{position:fixed;right:60px; top:60px;font-family: proxima-nova, sans-serif;
@@ -200,12 +183,12 @@ flex:1.5;
                     letter-spacing: 0.5px;
 
                     line-height: 1.5;
-                    display: inline-block; background-color: white; width: 150px;
+                    display: inline-block; background-color: white; width: 175px;
                     text-align: center;}
 
 .container{
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -245,32 +228,92 @@ flex:1.5;
         line-height: 1.3;}
 
 
-          @media screen and (max-width:1200px){
-            .gallery, .gallery2, .gallery3{margin-right: 75px;}
+          @media screen and (max-width:1600px){
+
 
              .gallery img{width: 300px;}
             .gallery2 img{width: 600px;}
             .gallery3 img{width:450px;}
             .gallery4 img{ width:600px;}
 
-          #about_fixed{position: fixed;left: 30px;top:240px;
-          font-size: 1.2rem; }
+          #about_fixed{position: fixed;left: 60px;top:240px;
+          font-size: 1.3rem; }
           #heedong{font-size:1.5rem;
-          position: fixed;left:30px; top:30px;}
+          position: fixed;left:60px; top:30px;}
           .top_margin{margin-top: 240px;}
+          #sub_title6{font-size: 0.8rem;position: fixed; right: 60px; top:30px; width: 75px;}
+          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
+          .title{font-size: 1rem; padding-left: 15px; padding-right: 15px; margin-top: 12.5px; margin-bottom: 100px;}
+          .gallery_frame{position: absolute;right: 60px;}
+          }
+
+          @media screen and (max-width:1300px){
+
+
+             .gallery img{width: 250px;}
+            .gallery2 img{width: 500px;}
+            .gallery3 img{width:375px;}
+            .gallery4 img{ width:500px;}
+
+          #about_fixed{position: fixed;left: 60px;top:240px;
+          font-size: 1rem; }
+          #heedong{font-size:1.5rem;
+          position: fixed;left:60px; top:30px;}
+          .top_margin{margin-top: 240px;}
+          #sub_title6{font-size: 0.8rem;position: fixed; right: 60px; top:30px;}
+          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
+          .title{font-size: 1rem; padding-left: 15px; padding-right: 15px; margin-top: 12.5px; margin-bottom: 75px;}
+          .gallery_frame{position: absolute;right: 60px;}
+          }
+
+
+          @media screen and (max-width:850px){
+
+
+             .gallery img{width: 180px;}
+            .gallery2 img{width: 360px;}
+            .gallery3 img{width:270px;}
+            .gallery4 img{ width:360px;}
+
+          #about_fixed{position: fixed;left: 30px;top:170px;
+          font-size: 0.8rem; }
+          #heedong{font-size:1rem;
+          position: fixed;left:30px; top:30px;}
+          .top_margin{margin-top: 170px;}
           #sub_title6{font-size: 0.8rem;position: fixed; right: 30px; top:30px;}
           #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
-          .title{font-size: 2rem; padding-left: 15px; padding-right: 15px; margin-top: 60px; }
-        }
+          .title{font-size: 0.8rem; padding-left: 15px; padding-right: 15px; margin-top: 6px; margin-bottom: 50px;}
+          .gallery_frame{position: absolute;right: 30px;}
+          }
+
+          @media screen and (max-width:480px){
+
+
+             .gallery img{width: 100%;}
+            .gallery2 img{width: 100%;}
+            .gallery3 img{width:100%;}
+            .gallery4 img{ width:100;}
+
+          #about_fixed{display: none;}
+          #line_container{display: none;}
+          #heedong{font-size:1rem;
+          text-align: center; top:30px;}
+          .top_margin{margin-top: 170px;}
+          #sub_title6{font-size: 0.8rem;position: fixed; right: 30px; top:30px;}
+          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
+          .title{font-size: 0.8rem; padding-left: 15px; padding-right: 15px; margin-top: 6px; margin-bottom: 50px;}
+          .gallery_frame{position: absolute;right:3%; left: 3%;}
+          .container{text-align: center;}
+          }
+
 </style>
 
 
 
 </head>
-<BODY onmousewheel="Picture1()">
-  <div id="anim"></div>
-  <script src="lottie.js"></script>
-  <script src="index.js"></script>
+<BODY>
+
+  
 <div class="top_margin"></div>
 
 <div id="heedong">GRAPHICS BY HEEDONG <br> PORTFOLIO</div>
@@ -295,7 +338,7 @@ flex:1.5;
 
 <div class="gallery_frame">
 
-<div class="gallery2"> <img src="image/empty.png" alt=""></div>
+
 <div class="gallery2"><a href="spiceable.html">
   <img src="image/spiceable/title.png" alt="">
   <div class="container">
@@ -368,7 +411,7 @@ flex:1.5;
 </div>
 
 <div class="container">
-  <a href="contact.html"><div id="sub_title6">Contact</div></a>
+  <a href="contact.html"><div id="sub_title6">Contact!</div></a>
 </div>
 
 
