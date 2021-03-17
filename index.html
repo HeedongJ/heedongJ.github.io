@@ -19,26 +19,62 @@
   </script>
 <style>
 body{background-color: black;}
+body{-ms-overflow-style:none; }
+body::-webkit-scrollbar { display:none; }
+
+
+출처: https://mrb18.tistory.com/entry/브라우져에-보이는-스크롤바-스크롤은-되면서-없애기 [DR design]
+
+
+
+출처: https://mrb18.tistory.com/entry/브라우져에-보이는-스크롤바-스크롤은-되면서-없애기 [DR design]
 
   #anim{max-width: 120px; position: fixed; right: 60px; bottom: 60px;}
+
+
     .gallery_frame{
       display: flex;
       flex-direction: column;
-      position: absolute; right: 5%;
+      width: 50%;
+      height: 100%;
+      position: fixed; left: 50%; right:0;
+      padding-top: 8%;
+
+      overflow: auto;
+
     }
 
     #line_container{
-      position: fixed; left:0; top:0;
-      border-right: 2px solid gray;
-      width: 43%;
+      position: absolute; left:0; top:0;
+      width: 50%;
       height: 100%;
+      text-align: center;
+
+      display: inline-block;
+      overflow: auto;
+      background-color: black;
+      border-right: 1px solid white;
+
     }
+    #line_container::-webkit-scrollbar {
+
+    display: none; /* Chrome, Safari, Opera*/
+
+}
+
+.gallery_frame::-webkit-scrollbar {
+
+display: none; /* Chrome, Safari, Opera*/
+
+}
 
 
     .gallery{
 
     display: inline-block;
-
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
 flex:1;
 
     }
@@ -46,6 +82,10 @@ flex:1;
     .gallery2{
 
     display: inline-block;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+
 
 flex:2;
 
@@ -56,6 +96,10 @@ flex:2;
     .gallery4{
 
     display: inline-block;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+
 
 
 
@@ -70,6 +114,10 @@ flex:3;
     .gallery3{
 
     display: inline-block;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+
 
 flex:1.5;
 
@@ -78,30 +126,27 @@ flex:1.5;
 .top_margin{margin-top:13%;}
 
 
-         .gallery img{width: 400px;}
-      .gallery2 img{width: 800px;}
-      .gallery3 img{width: 600px;}
-      .gallery4 img{width: 800px;}
+  img{width: 100%;}
 
 
       .title{
         display: inline-block;
 
         font-family: proxima-nova, sans-serif;
-        font-weight: 500;
+        font-weight: 600;
         font-style: normal;
         font-size: 1.5rem;
-        color: black;
-        letter-spacing: 0.5px;
+        color: white;
+        letter-spacing: 2px;
         text-align: center;
-        margin-top: 12.5px;
-        margin-bottom: 125px;
-        background-color: white;
-        padding-left: 25px;
-         padding-right: 25px;
+        margin-top: 20px;
+
+
+
 
         flex:1;
-          line-height: 1.3;}
+          line-height: 1.3;
+        }
           a{text-decoration: none;}
 
 
@@ -141,17 +186,57 @@ flex:1.5;
                       .gallery4 img{;
                         transform: scale(1);
                         transition: all 0.5s;}
+
+
                       #heedong{
                         font-family: proxima-nova, sans-serif;
                         font-weight: 800;
                         font-style: normal;
-                        font-size: 2rem;
+                        font-size: 1rem;
                         color: white;
                         letter-spacing: 1px;
-                        text-align: left;
-                        position: fixed; left:60px; top: 60px;;
+                        text-align: center;
+                        position:fixed; left:0; top:0;
                         line-height: 1.5;
+                          background-color: black;
+                        width: 100%;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+
+
                       }
+
+                      #bold{font-family: proxima-nova, sans-serif;
+                      font-weight: 500;
+                      font-style: normal;
+                      font-size: 3rem;
+                      color: white;
+                      letter-spacing: -1px;
+                      text-align: center;
+
+
+                      line-height: 1.5;
+                      display: inline-block;
+
+
+                      }
+
+                      #italic{font-family: proxima-nova, sans-serif;
+                      font-weight: 500;
+                      font-style: italic;
+                      font-size: 3rem;
+                      color: black;
+                      letter-spacing: -1px;
+                      text-align: center;
+
+
+                      line-height: 1.5;
+                      display: inline-block;
+
+
+                      }
+
+
                       #Portfolio{
                         font-family: proxima-nova, sans-serif;
                         font-weight: 600;
@@ -160,36 +245,91 @@ flex:1.5;
                         color: white;
                         letter-spacing: 0.3px;
                         text-align: center;
-                        position: fixed; left:40%; top: 60px;;
+                        position: fixed; left:40%; top: 60px;
+
                       }
                       #about_fixed{
                         font-family: proxima-nova, sans-serif;
-                        font-weight: 500;
+                        font-weight: 400;
                         font-style: normal;
-                        font-size: 1.5rem;
+                        font-size: 2.5rem;
                         color: white;
-                        letter-spacing: -0.5px;
-                        text-align: left;
-                        position: fixed;
-                        left: 60px;
-                        line-height: 1.5;
+                        letter-spacing: -1px;
+                        text-align: center;
+                        padding-left: 10%;
+                        padding-right: 10%;
+                        padding-top: 15%;
+
+                        line-height: 1.8;
+
+
+
 
                       }
 
-                      #sub_title6{position:fixed;right:60px; top:60px;font-family: proxima-nova, sans-serif;
-                      font-weight: 600;
+                      #about2{
+                        font-family: proxima-nova, sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 2.5rem;
+                        color: white;
+                        letter-spacing: -1px;
+                        text-align: center;
+                        padding-left: 10%;
+                        padding-right: 10%;
+
+
+                        line-height: 1.8;
+
+
+
+
+                      }
+
+                      #sub_title6{position:fixed;right:0; top:0;font-family: proxima-nova, sans-serif;
+                      font-weight: 800;
                       font-style: normal;
-                    color:black;
+                    color:white;
                     font-size: 1rem;
                     letter-spacing: 0.5px;
 
                     line-height: 1.5;
-                    display: inline-block; background-color: white; width: 175px;
-                    text-align: center;}
+                    display: inline-block; background-color: black; width: 175px;
+                    text-align: center;padding-top: 20px; padding-bottom: 20px;}
+
+
+                    #heedong2{
+                      font-family: proxima-nova, sans-serif;
+                      font-weight: 800;
+                      font-style: normal;
+                      font-size: 1rem;
+                      color: white;
+                      letter-spacing: 1px;
+                      text-align: center;
+                      position:fixed; left:0; bottom:0;
+                      line-height: 1.5;
+                        background-color: black;
+                      width: 100%;
+
+                      padding-top: 20px;
+                      padding-bottom: 20px;
+
+
+                    }
 
 .container{
   width: 100%;
-  text-align: left;
+  text-align: center;
+}
+.line{width: 100%;
+  height: 0%;
+border-bottom: 0.5px solid white;
+margin-top: 60px; margin-bottom: 60px;}
+
+.lineflex{width: 100%;
+  height: 0%;
+border-bottom: 0.5px solid white;
+margin-top: 80px; margin-bottom: 80px;
 }
 
 
@@ -227,7 +367,7 @@ flex:1.5;
 
       flex:1;
         line-height: 1.3;}
-
+/*
         @media screen and (max-width:1600px){
 
 
@@ -326,40 +466,53 @@ flex:1.5;
           .gallery_frame{position: absolute;right:3%; left: 3%;}
           .container{text-align: center;}
           }
-
+*/
 </style>
 
 
 
 </head>
-<BODY>
+<body>
 
 
-<div class="top_margin"></div>
-<div id="line_container"></div>
-
-<div id="heedong">GRAPHICS BY HEEDONG <br> PORTFOLIO</div>
 
 
-<div class="top_margin">
-<div id="about_fixed">
 
-  Heedong Jeong, Majoring in visual communication  <br>
-   design at Korea National University of Arts (BA).<br>
-   I'm living in U.S as a permanent resident. <br> <br>
-   I have explored how to interpret and communicate<br>
-   given information in graphic language and that is the<br>
-    most interested thing to me. <br> <br>
-   Every graphic design contains a message.    <br>
-   These messages can be maximized or interpreted    <br>
-   differently depending on the designer's graphic intentions.   <br>
-   I'm interested in this relationship and thinking about it <br>
-   when creating my design. <br>
+  <div class="container">
+    <a href="contact.html"><div id="sub_title6">Contact!</div></a>
+  </div>
+
+
+
+<div id="line_container">
+
+
+
+
+
+<div id="about_fixed"><div id="bold">  Hello!🖐</div><br> My name is Heedong Jeong, <br> Majoring in Visual Communication
+   Design at Korea National University of Arts (BA).
+   I'm living in U.S as a permanent resident.</div><div class="line"></div>
+
+  <div id="about2">
+   I have explored how to interpret and communicate
+   given information in graphic language and that is the
+    most interested thing to me. </div><div class="line"></div>
+    <div id="about2">
+   Every graphic design contains a message.
+   These messages can be maximized or interpreted
+   differently depending on the designer's graphic intentions.</div><div class="line"></div>
+
+   <div id="about2">
+   I'm interested in this relationship and thinking about it
+   when creating my design.</div><div class="line"></div>
+
  </div>
- </div>
+
+
+
 
 <div class="gallery_frame">
-
 
 <div class="gallery2"><a href="spiceable.html">
   <img src="image/spiceable/title.png" alt="">
@@ -369,6 +522,7 @@ flex:1.5;
 
 </div>
 </div>
+<div class="lineflex"></div>
 
 <div class="gallery"> <a href="hbc.html">
   <img src="image/hbc/hbcgallery.png" alt="">
@@ -379,6 +533,8 @@ flex:1.5;
 </div>
 </div>
 
+<div class="lineflex"></div>
+
 <div class="gallery4"><a href="nori.html">
   <img src="image/nori/norigallery.png" alt="">
   <div class="container">
@@ -386,6 +542,8 @@ flex:1.5;
   <div class="title">Myutt-Nori</div></a>
 </div>
 </div>
+
+<div class="lineflex"></div>
 
 
 <div class="gallery"><a href="moodle.html">
@@ -396,6 +554,8 @@ flex:1.5;
 </div>
 </div>
 
+<div class="lineflex"></div>
+
 <div class="gallery4"><a href="surviellance.html">
   <img src="image/suv/suvgallery.png" alt="">
   <div class="container">
@@ -405,13 +565,17 @@ flex:1.5;
 
 </div>
 
+<div class="lineflex"></div>
+
 <div class="gallery"><a href="seebal.html">
   <img src="image/seebal/see.png" alt="">
   <div class="container">
 
-  <div class="title">Seebal</div></a>
+  <div class="title">SeeBal</div></a>
 </div>
 </div>
+
+<div class="lineflex"></div>
 
 <div class="gallery2"><a href="tdl.html">
   <img src="image/tdl/tdl.png" alt="">
@@ -420,6 +584,8 @@ flex:1.5;
   <div class="title">TDL Series</div></a>
 </div>
 </div>
+
+<div class="lineflex"></div>
 
 <div class="gallery3"><a href="regrets.html">
 
@@ -430,6 +596,8 @@ flex:1.5;
 </div>
 
 </div>
+
+<div class="lineflex"></div>
 
 
 <div class="gallery"><a href="internship1.html">
@@ -443,14 +611,19 @@ flex:1.5;
 
 
 
+
+
+
 </div>
 
+<div id="heedong">GRAPHICS BY </div>
 <div class="container">
-  <a href="contact.html"><div id="sub_title6">Contact!</div></a>
+  <a href="contact.html"><div id="sub_title6">CONTACT!</div></a>
 </div>
+<div id="heedong2">HEEDONG </div>
 
 
 
 
-</BODY>
+</body>
 </html>
