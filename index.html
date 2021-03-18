@@ -23,11 +23,7 @@ body{-ms-overflow-style:none; }
 body::-webkit-scrollbar { display:none; }
 
 
-출처: https://mrb18.tistory.com/entry/브라우져에-보이는-스크롤바-스크롤은-되면서-없애기 [DR design]
 
-
-
-출처: https://mrb18.tistory.com/entry/브라우져에-보이는-스크롤바-스크롤은-되면서-없애기 [DR design]
 
   #anim{max-width: 120px; position: fixed; right: 60px; bottom: 60px;}
 
@@ -39,8 +35,8 @@ body::-webkit-scrollbar { display:none; }
       height: 100%;
       position: fixed; left: 50%; right:0;
       padding-top: 8%;
-
       overflow: auto;
+      border-left: 3px solid white;
 
     }
 
@@ -53,7 +49,7 @@ body::-webkit-scrollbar { display:none; }
       display: inline-block;
       overflow: auto;
       background-color: black;
-      border-right: 1px solid white;
+      
 
     }
     #line_container::-webkit-scrollbar {
@@ -73,8 +69,8 @@ display: none; /* Chrome, Safari, Opera*/
 
     display: inline-block;
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
 flex:1;
 
     }
@@ -97,8 +93,8 @@ flex:2;
 
     display: inline-block;
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 
 
@@ -106,12 +102,7 @@ flex:2;
 flex:3;
 
     }
-
-
-
-
-
-    .gallery3{
+  .gallery3{
 
     display: inline-block;
     text-align: center;
@@ -205,6 +196,8 @@ flex:1.5;
 
 
                       }
+
+
 
                       #bold{font-family: proxima-nova, sans-serif;
                       font-weight: 500;
@@ -308,12 +301,12 @@ flex:1.5;
                       text-align: center;
                       position:fixed; left:0; bottom:0;
                       line-height: 1.5;
-                        background-color: black;
+                      background-color: black;
+
                       width: 100%;
 
                       padding-top: 20px;
                       padding-bottom: 20px;
-
 
                     }
 
@@ -323,12 +316,12 @@ flex:1.5;
 }
 .line{width: 100%;
   height: 0%;
-border-bottom: 0.5px solid white;
+border-bottom: 3px solid black;
 margin-top: 60px; margin-bottom: 60px;}
 
 .lineflex{width: 100%;
   height: 0%;
-border-bottom: 0.5px solid white;
+border-bottom: 3px solid black;
 margin-top: 80px; margin-bottom: 80px;
 }
 
@@ -492,20 +485,21 @@ margin-top: 80px; margin-bottom: 80px;
 
 <div id="about_fixed"><div id="bold">  Hello!🖐</div><br> My name is Heedong Jeong, <br> Majoring in Visual Communication
    Design at Korea National University of Arts (BA).
-   I'm living in U.S as a permanent resident.</div><div class="line"></div>
+   I'm living in U.S as a permanent resident. <br> <br></div><div class="line"></div>
 
-  <div id="about2">
+  <div id="about2"> <br>
    I have explored how to interpret and communicate
    given information in graphic language and that is the
-    most interested thing to me. </div><div class="line"></div>
-    <div id="about2">
+    most interested thing to me.  <br> <br></div><div class="line"></div>
+    <div id="about2"> <br>
    Every graphic design contains a message.
    These messages can be maximized or interpreted
-   differently depending on the designer's graphic intentions.</div><div class="line"></div>
+   differently depending on the designer's graphic intentions. <br> <br></div><div class="line"></div>
 
-   <div id="about2">
+   <div id="about2"> <br>
    I'm interested in this relationship and thinking about it
-   when creating my design.</div><div class="line"></div>
+   when creating my design.</div> <br> <br><div class="line"></div>
+   <br><br><br> <br><br><br> <br><br><br>
 
  </div>
 
@@ -607,6 +601,8 @@ margin-top: 80px; margin-bottom: 80px;
   <div class="title">internship 2018</div></a>
 </div>
 </div>
+<div class="lineflex"></div>
+<div class="gallery"><img src="image/empty.png" alt=""></div>
 
 
 
@@ -617,6 +613,7 @@ margin-top: 80px; margin-bottom: 80px;
 </div>
 
 <div id="heedong">GRAPHICS BY </div>
+<div id="project">PROJECT </div>
 <div class="container">
   <a href="contact.html"><div id="sub_title6">CONTACT!</div></a>
 </div>
