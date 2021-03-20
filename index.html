@@ -25,7 +25,7 @@ body::-webkit-scrollbar { display:none; }
 
 
 
-  #anim{max-width: 120px; position: fixed; right: 60px; bottom: 60px;}
+
 
 
     .gallery_frame{
@@ -39,10 +39,11 @@ body::-webkit-scrollbar { display:none; }
 
       text-align: left;
       border-right: 3px solid white;
-      border-left: 3px solid #FF7E1D;
+      border-left: 5px solid #FF7E1D;
       margin-right: 3%;
       padding-right: 2.5%;
-      padding-top: 7.5%;
+
+
 
     }
 
@@ -54,10 +55,10 @@ body::-webkit-scrollbar { display:none; }
 
       display: inline-block;
       overflow: auto;
-      background-color: black;
+
       margin-left:3%;
       padding-left: 2.5%;
-      border-left: 3px solid #FF7E1D;
+      border-left: 5px solid #FF7E1D;
 
 
     }
@@ -133,7 +134,7 @@ flex:1.5;
         display: inline-block;
 
         font-family: proxima-nova, sans-serif;
-        font-weight: 370;
+        font-weight: 500;
         font-style: normal;
         font-size: 2rem;
         color: white;
@@ -208,7 +209,7 @@ flex:1.5;
                           background-color: black;
                         padding-top: 20px;
                         padding-bottom: 20px;
-                        width: 10%;
+                        width: 13%;
 
 
                       }
@@ -237,7 +238,7 @@ flex:1.5;
                       #bold{font-family: proxima-nova, sans-serif;
                       font-weight: 500;
                       font-style: normal;
-                      font-size: 1.5rem;
+                      font-size: 3rem;
                       color: white;
                       letter-spacing: 1px;
                       text-align: center;
@@ -252,17 +253,18 @@ flex:1.5;
                       #bold2{font-family: proxima-nova, sans-serif;
                       font-weight: 600;
                       font-style: normal;
-                      font-size: 1.5rem;
+                      font-size: 3rem;
                       color: white;
                       letter-spacing: 1px;
-                      text-align: left;
+                      text-align: right;
 
 
                       line-height: 1.5;
                       flex:1;
-                      margin-left: 3.5%;
-                      margin-right: 35%;
-                      position: fixed;
+
+                      margin-right: 15%;
+
+                      padding-top: 15%;
 
 
 
@@ -317,7 +319,7 @@ flex:1.5;
 
                       #about2{
                         font-family: proxima-nova, sans-serif;
-                        font-weight: 370;
+                        font-weight: 500;
                         font-style: normal;
                         font-size: 2rem;
                         color: gray;
@@ -389,7 +391,7 @@ flex:1.5;
                       font-family: proxima-nova, sans-serif;
                       font-weight: 800;
                       font-style: normal;
-                      font-size: 1rem;
+                      font-size: 1.5rem;
                       color: black;
                       letter-spacing: 1px;
                       text-align: center;
@@ -402,7 +404,8 @@ flex:1.5;
 
                       padding-top: 20px;
                       padding-bottom: 20px;
-                      margin-left: 1%;
+                      width: 5%;
+                      height: 4%;
 
                     }
 
@@ -410,7 +413,7 @@ flex:1.5;
                       font-family: proxima-nova, sans-serif;
                       font-weight: 800;
                       font-style: normal;
-                      font-size: 1rem;
+                      font-size: 1.5rem;
                       color: black;
                       letter-spacing: 1px;
                       text-align: center;
@@ -421,9 +424,8 @@ flex:1.5;
 
                       display: inline-block;
 
-                      padding-top: 20px;
-                      padding-bottom: 20px;
-                      margin-left: 1%;
+                      width: 5%;
+                      height: 4%;
 
                     }
 
@@ -431,7 +433,7 @@ flex:1.5;
                       font-family: proxima-nova, sans-serif;
                       font-weight: 800;
                       font-style: normal;
-                      font-size: 1rem;
+                      font-size: 1.5rem;
                       color: black;
                       letter-spacing: 1px;
                       text-align: center;
@@ -442,9 +444,8 @@ flex:1.5;
 
                       display: inline-block;
 
-                      padding-top: 20px;
-                      padding-bottom: 20px;
-                      margin-left: 1%;
+                      width: 5%;
+                      height: 4%;
 
                     }
 
@@ -452,7 +453,7 @@ flex:1.5;
                       font-family: proxima-nova, sans-serif;
                       font-weight: 800;
                       font-style: normal;
-                      font-size: 1rem;
+                      font-size: 1.5rem;
                       color: black;
                       letter-spacing: 1px;
                       text-align: center;
@@ -463,20 +464,28 @@ flex:1.5;
 
                       display: inline-block;
 
-                      padding-top: 20px;
-                      padding-bottom: 20px;
-                      margin-left: 1%;
+                      width: 5%;
+                      height: 4%;
 
                     }
                     #orangeline{
                       display: inline-block;
                       height: 100%;
                       width: 0;
-                      border-right: 3px solid #FF7E1D;
+                      border-right: 5px solid #FF7E1D;
                       position: fixed;right:0;
                       margin-right: 3%;
                       padding-left: 2.5%;
                     }
+                    #orangeline2{
+                      display: inline-block;
+                      height:0;
+                      width: 4%;
+                      border-bottom: 5px solid #FF7E1D;
+                      position: fixed;right:48%; top:50%;
+
+                    }
+
 
 .container{
   width: 100%;
@@ -531,106 +540,39 @@ margin-top: 80px; margin-bottom: 80px;
 
       flex:1;
         line-height: 1.3;}
-/*
-        @media screen and (max-width:1600px){
 
+        #anim{width: 100%; height: 100%;
+          position: fixed;
+        margin: 0 auto; left: 0; right:0}
 
-           .gallery img{width: 350px;}
-          .gallery2 img{width: 700px;}
-          .gallery3 img{width:525px;}
-          .gallery4 img{ width:700px;}
+        @media screen and (max-width:1200px){
 
-        #about_fixed{position: fixed;left: 60px;top:240px;
-        font-size: 1.3rem; }
-        #heedong{font-size:1.5rem;
-        position: fixed;left:60px; top:30px;}
-        .top_margin{margin-top: 240px;}
-        #sub_title6{font-size: 0.8rem;position: fixed; right: 60px; top:30px; width: 75px;}
-        #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
-        .title{font-size: 1rem; padding-left: 15px; padding-right: 15px; margin-top: 12.5px; margin-bottom: 100px;}
-        .gallery_frame{position: absolute;right: 60px;}
-        }
-
-        @media screen and (max-width:1400px){
-
-
-           .gallery img{width: 300px;}
-          .gallery2 img{width: 600px;}
-          .gallery3 img{width:450px;}
-          .gallery4 img{ width:500px;}
-
-        #about_fixed{position: fixed;left: 60px;top:240px;
-        font-size: 1.3rem; }
-        #heedong{font-size:1.5rem;
-        position: fixed;left:60px; top:30px;}
-        .top_margin{margin-top: 240px;}
-        #sub_title6{font-size: 0.8rem;position: fixed; right: 60px; top:30px; width: 75px;}
-        #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
-        .title{font-size: 1rem; padding-left: 15px; padding-right: 15px; margin-top: 12.5px; margin-bottom: 100px;}
-        .gallery_frame{position: absolute;right: 60px;}
+    #heedong, #heedong2, #heedong3, #heedong4, #heedong5, #heedong6{font-size: 1rem;}
+    #about2{font-size: 1.5rem;}
+    #bold, #bold2{font-size: 2rem;}
+    .title{font-size: 1.5rem;}
         }
 
 
+          @media screen and (max-width:480px){
+            #heedong, #heedong2{font-size: 0.5rem;}
+             #heedong3, #heedong4, #heedong5, #heedong6,#orangeline, #orangeline2{display:none;}
+            #about2{font-size: 0.5rem;}
+            #orangeline2{border-bottom: 1px solid #FF7E1D;}
+            #bold, #bold2{font-size: 0.5rem;}
+            #bold2{margin-right: 10%;}
+            #bold1{margin-left: 10%;}
+            #line_container{border: 0px;margin-left: 3%; padding: 0;}
+            .title{font-size: 0.5rem;}
+            .gallery_frame{padding-top: 7.5%; border-left: 1px solid #FF7E1D; margin-right: 3%; padding-right: 0;}
+            #heedong, #heedong2{width: 20%;}
+            .gallery, .gallery2, .gallery3, .gallery4{padding-right: 10%;}
+            #about2{padding-left:3%; padding-right: 20%;}
 
-          @media screen and (max-width:1300px){
 
 
-             .gallery img{width: 250px;}
-            .gallery2 img{width: 500px;}
-            .gallery3 img{width:375px;}
-            .gallery4 img{ width:500px;}
-
-          #about_fixed{position: fixed;left: 60px;top:240px;
-          font-size: 1rem; }
-          #heedong{font-size:1.5rem;
-          position: fixed;left:60px; top:30px;}
-          .top_margin{margin-top: 240px;}
-          #sub_title6{font-size: 0.8rem;position: fixed; right: 60px; top:30px;}
-          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
-          .title{font-size: 1rem; padding-left: 15px; padding-right: 15px; margin-top: 12.5px; margin-bottom: 75px;}
-          .gallery_frame{position: absolute;right: 60px;}
           }
 
-
-          @media screen and (max-width:1050px){
-
-
-             .gallery img{width: 200px;}
-            .gallery2 img{width: 400px;}
-            .gallery3 img{width:300px;}
-            .gallery4 img{ width:400px;}
-
-          #about_fixed{position: fixed;left: 30px;top:170px;
-          font-size: 1rem; }
-          #heedong{font-size:1rem;
-          position: fixed;left:30px; top:30px;}
-          .top_margin{margin-top: 170px;}
-          #sub_title6{font-size: 0.8rem;position: fixed; right: 30px; top:30px;}
-          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
-          .title{font-size: 0.8rem; padding-left: 15px; padding-right: 15px; margin-top: 6px; margin-bottom: 50px;}
-          .gallery_frame{position: absolute;right: 30px;}
-          }
-
-          @media screen and (max-width:750px){
-
-
-             .gallery img{width: 100%;}
-            .gallery2 img{width: 100%;}
-            .gallery3 img{width:100%;}
-            .gallery4 img{ width:100%;}
-
-          #about_fixed{display: none;}
-          #line_container{display: none;}
-          #heedong{font-size:1rem;
-          text-align: center; position: fixed;left: 0; right: 0;}
-          .top_margin{margin-top: 150px;}
-          #sub_title6{display: none;}
-          #anim{ max-width: 100px; position: fixed; right: 30px; bottom: 250px;}
-          .title{font-size: 0.8rem; padding-left: 15px; padding-right: 15px; margin-top: 6px; margin-bottom: 50px;}
-          .gallery_frame{position: absolute;right:3%; left: 3%;}
-          .container{text-align: center;}
-          }
-*/
 </style>
 
 
@@ -640,10 +582,11 @@ margin-top: 80px; margin-bottom: 80px;
 
 
 
+  <div id="anim"></div>
+  <script src="lottie.js"></script>
+  <script src="bg.js"></script>
 
-
-
-
+<div id="orangeline2"></div>
 
 <div id="line_container">
 
@@ -651,7 +594,7 @@ margin-top: 80px; margin-bottom: 80px;
 
 
 
-<div id="about_fixed"><div id="bold">  ABOUT</div></div><br><br>
+<div id="about_fixed"><div id="bold">ABOUT</div></div><br><br>
 <div id="about2"> My name is Heedong Jeong, majoring in Visual Communication
    Design at Korea National University of Arts (BA).
    I'm living in U.S as a permanent resident. </div>
@@ -786,14 +729,22 @@ margin-top: 80px; margin-bottom: 80px;
 
 
 </div>
+
+
+
+
 <div id="orangeline"></div>
+
+
 
 <div id="heedong">GRAPHICS BY </div>
 <div id="heedong2">HEEDONG </div>
-<div id="heedong3">GRAPHICS BY </div>
-<div id="heedong4">HEEDONG </div>
-<div id="heedong5">GRAPHICS BY </div>
-<div id="heedong6">HEEDONG </div>
+<div id="heedong3"> </div>
+<div id="heedong4"> </div>
+<div id="heedong5"></div>
+<div id="heedong6"></div>
+
+
 
 
 
