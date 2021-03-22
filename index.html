@@ -26,7 +26,16 @@ body::-webkit-scrollbar { display:none; }
 
 
 
+#orangeline{
+  display: inline-block;
+  width: 0%;
+  height: 100%;
+  border-right: 2px solid #FF7E1D;
+  position:fixed; margin: 0 auto; left:0; right:0;
 
+
+
+  }
 
     .gallery_frame{
       display: flex;
@@ -206,8 +215,10 @@ flex:1.5;
     right:0;
                         line-height: 1.5;
                         padding-top: 10px;
-                        padding-bottom: 10px;
+                        padding-bottom: 5px;
                         display: inline-block;
+                        width: 250px;
+                        background-color: black;
 
 
                       }
@@ -225,8 +236,9 @@ flex:1.5;
 
                         padding-top: 5px;
                         padding-bottom: 10px;
-                        display: inline-block;
-
+                        display: inline;
+                        background-color: black;
+                        width: 200px;
 
                       }
 
@@ -406,17 +418,7 @@ flex:1.5;
 
 
 
-                    #orangeline{
-                      display: inline-block;
-                      width: 0%;
-                      height: 100%;
-                      border-right: 2px solid #FF7E1D;
-                      position:fixed; margin: 0 auto; left:0; right:0;
-                      margin-top: 65px;
-                      margin-bottom: 40px;
 
-
-                      }
 
 
 
@@ -482,6 +484,8 @@ margin-top: 80px; margin-bottom: 80px;
         @media screen and (max-width:1200px){
 
     #heedong, #heedong2, #heedong3, #heedong4, #heedong5, #heedong6{font-size: 1.5rem;}
+    #heedong{width: 200px;}
+    #heedong2{width: 150px;}
     #about2{font-size: 1.5rem; line-height:}
     #bold, #bold2{font-size: 1rem;}
     .title{font-size: 1.5rem;}
@@ -514,18 +518,10 @@ margin-top: 80px; margin-bottom: 80px;
 
 </head>
 <body>
-
   <div id="anim"></div>
   <script src="lottie.js"></script>
   <script src="bg.js"></script>
   <div id="orangeline"></div>
-
-  <div id="heedong3"> HEEDONG</div>
-
-
-
-
-
   <div id="heedong">GRAPHICS BY </div>
   <div id="heedong2">HEEDONG </div>
 
