@@ -38,10 +38,9 @@ body::-webkit-scrollbar { display:none; }
       overflow: auto;
 
       text-align: left;
-      border-right: 3px solid white;
-
+/*
       border-left: 2px solid #FF7E1D;
-
+*/
       margin-right: 3%;
       padding-right: 2.5%;
 
@@ -192,7 +191,6 @@ flex:1.5;
 
 
                       #heedong{
-                        display: inline-block;
 
 
                         font-family: magneta, serif;
@@ -203,15 +201,13 @@ flex:1.5;
                         letter-spacing: 1.8px;
                         text-align: center;
                         position:fixed;  margin:0 auto;
+
     left:0;
     right:0;
-    background-color: black;
-width: 18%;
-
                         line-height: 1.5;
-
                         padding-top: 10px;
                         padding-bottom: 10px;
+                        display: inline-block;
 
 
                       }
@@ -224,15 +220,31 @@ width: 18%;
                         color: white;
                         letter-spacing: 1.8px;
                         text-align: center;
-                        position:fixed; margin: 0 auto ; left:0; bottom:0; right:0;
+                        position:fixed; margin: 0 auto ; left:0; right: 0;bottom:0;
                         line-height: 1.5;
-                        background-color: black;
 
-
-                        padding-top: 10px;
+                        padding-top: 5px;
                         padding-bottom: 10px;
                         display: inline-block;
-                        width: 15%;
+
+
+                      }
+
+                      #heedong3{
+                        font-family: magneta, serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: black;
+                        letter-spacing: 1.8px;
+                        text-align: center;
+                        position:fixed; margin: 0 auto ; left:0; right: 0;bottom:0;
+                        line-height: 1.5;
+
+                        padding-top: 5px;
+                        padding-bottom: 10px;
+                        display: inline-block;
+                        background-color: black;
 
                       }
                       #about_fixed{
@@ -392,97 +404,22 @@ width: 18%;
 
 
 
-                    #heedong3{
-                      font-family: proxima-nova, sans-serif;
-                      font-weight: 800;
-                      font-style: normal;
-                      font-size: 1.5rem;
-                      color: black;
-                      letter-spacing: 1px;
-                      text-align: center;
-                      position:fixed; margin: 0 auto ; left:0;top:0;
-                      line-height: 1.5;
-                      background-color: black;
 
 
-                      display: inline-block;
-
-                      padding-top: 20px;
-                      padding-bottom: 20px;
-                      width: 5%;
-                      height: 4%;
-
-                    }
-
-                    #heedong4{
-                      font-family: proxima-nova, sans-serif;
-                      font-weight: 800;
-                      font-style: normal;
-                      font-size: 1.5rem;
-                      color: black;
-                      letter-spacing: 1px;
-                      text-align: center;
-                      position:fixed; margin: 0 auto ; left:0;bottom:0;
-                      line-height: 1.5;
-                      background-color: black;
-
-
-                      display: inline-block;
-
-                      width: 5%;
-                      height: 4%;
-
-                    }
-
-                    #heedong5{
-                      font-family: proxima-nova, sans-serif;
-                      font-weight: 800;
-                      font-style: normal;
-                      font-size: 1.5rem;
-                      color: black;
-                      letter-spacing: 1px;
-                      text-align: center;
-                      position:fixed; margin: 0 auto ; right:0;top:0;
-                      line-height: 1.5;
-                      background-color: black;
-
-
-                      display: inline-block;
-
-                      width: 5%;
-                      height: 4%;
-
-                    }
-
-                    #heedong6{
-                      font-family: proxima-nova, sans-serif;
-                      font-weight: 800;
-                      font-style: normal;
-                      font-size: 1.5rem;
-                      color: black;
-                      letter-spacing: 1px;
-                      text-align: center;
-                      position:fixed; margin: 0 auto ; right:0;bottom:0;
-                      line-height: 1.5;
-                      background-color: black;
-
-
-                      display: inline-block;
-
-                      width: 5%;
-                      height: 4%;
-
-                    }
-/*
                     #orangeline{
                       display: inline-block;
+                      width: 0%;
                       height: 100%;
-                      width: 0;
                       border-right: 2px solid #FF7E1D;
-                      position: fixed; margin: 0 auto; right: 0; left:0;
-                      margin-top: 5%; margin-bottom: 5%;}
+                      position:fixed; margin: 0 auto; left:0; right:0;
+                      margin-top: 65px;
+                      margin-bottom: 40px;
 
-*/
+
+                      }
+
+
+
 
 .container{
   width: 100%;
@@ -548,6 +485,7 @@ margin-top: 80px; margin-bottom: 80px;
     #about2{font-size: 1.5rem; line-height:}
     #bold, #bold2{font-size: 1rem;}
     .title{font-size: 1.5rem;}
+    #orangeline{margin-top: 45px; margin-bottom: 45px;}
         }
 
 
@@ -576,6 +514,16 @@ margin-top: 80px; margin-bottom: 80px;
 
 </head>
 <body>
+  <div id="orangeline"></div>
+
+  <div id="heedong3"> HEEDONG</div>
+
+
+
+
+
+  <div id="heedong">GRAPHICS BY </div>
+  <div id="heedong2">HEEDONG </div>
 
 
 
@@ -583,7 +531,6 @@ margin-top: 80px; margin-bottom: 80px;
   <script src="lottie.js"></script>
   <script src="bg.js"></script>
 
-<div id="orangeline2"></div>
 
 <div id="line_container">
 
@@ -738,18 +685,6 @@ margin-top: 80px; margin-bottom: 80px;
 </div>
 
 
-
-
-<div id="orangeline"></div>
-
-
-
-<div id="heedong">GRAPHICS BY </div>
-<div id="heedong2">HEEDONG </div>
-<div id="heedong3"> </div>
-<div id="heedong4"> </div>
-<div id="heedong5"></div>
-<div id="heedong6"></div>
 
 
 
