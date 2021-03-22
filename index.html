@@ -39,7 +39,9 @@ body::-webkit-scrollbar { display:none; }
 
       text-align: left;
       border-right: 3px solid white;
-      border-left: 5px solid #FF7E1D;
+
+      border-left: 2px solid #FF7E1D;
+
       margin-right: 3%;
       padding-right: 2.5%;
 
@@ -58,7 +60,6 @@ body::-webkit-scrollbar { display:none; }
 
       margin-left:3%;
       padding-left: 2.5%;
-      border-left: 5px solid #FF7E1D;
 
 
     }
@@ -134,7 +135,7 @@ flex:1.5;
         display: inline-block;
 
         font-family: proxima-nova, sans-serif;
-        font-weight: 500;
+        font-weight: 400;
         font-style: normal;
         font-size: 2rem;
         color: white;
@@ -191,26 +192,47 @@ flex:1.5;
 
 
                       #heedong{
+                        display: inline-block;
 
-                        font-family: proxima-nova, sans-serif;
-                        font-weight: 800;
+
+                        font-family: magneta, serif;
+                        font-weight: 400;
                         font-style: normal;
-                        font-size: 1.5rem;
-                        color: #0ABC5A;
-                        letter-spacing: 1px;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 1.8px;
                         text-align: center;
                         position:fixed;  margin:0 auto;
     left:0;
     right:0;
-
-
+    background-color: black;
+width: 18%;
 
                         line-height: 1.5;
-                          background-color: black;
-                        padding-top: 20px;
-                        padding-bottom: 20px;
-                        width: 13%;
 
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+
+
+                      }
+
+                      #heedong2{
+                        font-family: magneta, serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 2rem;
+                        color: white;
+                        letter-spacing: 1.8px;
+                        text-align: center;
+                        position:fixed; margin: 0 auto ; left:0; bottom:0; right:0;
+                        line-height: 1.5;
+                        background-color: black;
+
+
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        display: inline-block;
+                        width: 15%;
 
                       }
                       #about_fixed{
@@ -236,9 +258,9 @@ flex:1.5;
 
 
                       #bold{font-family: proxima-nova, sans-serif;
-                      font-weight: 500;
+                      font-weight: 400;
                       font-style: normal;
-                      font-size: 2rem;
+                      font-size: 1.5rem;
                       color: white;
                       letter-spacing: 1px;
                       text-align: center;
@@ -251,9 +273,9 @@ flex:1.5;
                       }
 
                       #bold2{font-family: proxima-nova, sans-serif;
-                      font-weight: 600;
+                      font-weight: 400;
                       font-style: normal;
-                      font-size: 2rem;
+                      font-size: 1.5rem;
                       color: white;
                       letter-spacing: 1px;
                       text-align: right;
@@ -319,7 +341,7 @@ flex:1.5;
 
                       #about2{
                         font-family: proxima-nova, sans-serif;
-                        font-weight: 500;
+                        font-weight: 400;
                         font-style: normal;
                         font-size: 2rem;
                         color: gray;
@@ -368,24 +390,7 @@ flex:1.5;
                     text-align: center;padding-top: 20px; padding-bottom: 20px;}
 
 
-                    #heedong2{
-                      font-family: proxima-nova, sans-serif;
-                      font-weight: 800;
-                      font-style: normal;
-                      font-size: 1.5rem;
-                      color: #0ABC5A;
-                      letter-spacing: 1px;
-                      text-align: center;
-                      position:fixed; margin: 0 auto ; left:0; bottom:0; right:0;
-                      line-height: 1.5;
-                      background-color: black;
 
-                      width: 10%;
-
-                      padding-top: 20px;
-                      padding-bottom: 20px;
-
-                    }
 
                     #heedong3{
                       font-family: proxima-nova, sans-serif;
@@ -468,17 +473,16 @@ flex:1.5;
                       height: 4%;
 
                     }
+/*
                     #orangeline{
                       display: inline-block;
                       height: 100%;
                       width: 0;
-                      border-right: 5px solid #FF7E1D;
-                      position: fixed;right:0;
-                      margin-right: 3%;
-                      padding-left: 2.5%;
-                    }
+                      border-right: 2px solid #FF7E1D;
+                      position: fixed; margin: 0 auto; right: 0; left:0;
+                      margin-top: 5%; margin-bottom: 5%;}
 
-
+*/
 
 .container{
   width: 100%;
@@ -540,9 +544,9 @@ margin-top: 80px; margin-bottom: 80px;
 
         @media screen and (max-width:1200px){
 
-    #heedong, #heedong2, #heedong3, #heedong4, #heedong5, #heedong6{font-size: 1rem;}
+    #heedong, #heedong2, #heedong3, #heedong4, #heedong5, #heedong6{font-size: 1.5rem;}
     #about2{font-size: 1.5rem; line-height:}
-    #bold, #bold2{font-size: 2rem;}
+    #bold, #bold2{font-size: 1rem;}
     .title{font-size: 1.5rem;}
         }
 
